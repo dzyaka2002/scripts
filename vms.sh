@@ -61,7 +61,7 @@ l0
 l3(){
 echo
 echo Операционные системы:
-echo 1. Ubuntu 14 Server, размер образа - 0.5 Гб.
+echo 1. Ubuntu 14 Server, размер образа - 0.5 + Гб.
 echo 2. Ubuntu 18 Desktop, размер образа -  2.3 Гб.
 echo 3. Ubuntu 22 Desktop, размер образа -  3.7 Гб. 
 echo 4. Windows XP x86, размер образа -  1.1 Гб. 
