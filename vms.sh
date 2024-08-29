@@ -64,28 +64,28 @@ echo Операционные системы:
 echo 1. Ubuntu 14 Server, размер образа - 0.5 Гб.
 echo 2. Ubuntu 18 Desktop, размер образа -  2.3 Гб.
 echo 3. Ubuntu 22 Desktop, размер образа -  3.7 Гб. 
-echo 4. Windows XP x86, размер образа -  1 Гб. 
-echo 5. Windows 7 x86, размер образа -  4 Гб.
-echo 6. Windows 7 x64, размер образа -  5 Гб.
+echo 4. Windows XP x86, размер образа -  1.1 Гб. 
+echo 5. Windows 7 x86, размер образа -  2.8 Гб.
+echo 6. Windows 7 x64, размер образа -  7.5 Гб.
 echo 7. Windows 10, размер образа -  5.5 Гб.
 echo 8. Windows 2008 R2 Server, размер образа -  5.5 Гб.
 echo 9. Windows 2022 Server, размер образа -  4.4 Гб.
-echo 10. Windows 11, размер образа - 4.5 Гб.
-echo 11. Windows 10 урезанная версия, размер образа - 2.5 Гб.
+echo 10. Windows 11, размер образа - 6.5 Гб.
+echo 11. Windows 10 урезанная версия, размер образа - 3.5 Гб.
 echo 12. Завершить работу скрипта.
 
 read -p "Выберите необходимую ОС (введите нужную цифру 1/2/3/4/5/6/7/8/9/10/11/12):" var
 [ $var == 1 ] && l="https://www.googleapis.com/drive/v3/files/1hRMXIrCUrThimSLwX30YUo01cjLuI_20/?key=AIzaSyDliYimBJiQvxejchkhEbt2-AAmSRamMLU&alt=media" && si=454969856 && ovan=u14    
 [ $var == 2 ] && l="https://www.googleapis.com/drive/v3/files/1RUFFDBiwgouZgRmZgdQGfRyNBOQnewzb/?key=AIzaSyDliYimBJiQvxejchkhEbt2-AAmSRamMLU&alt=media" && si=2501635584 && ovan=u18   
 [ $var == 3 ] && l="https://www.googleapis.com/drive/v3/files/12ihmMhK3AjeyeTqyLegewQhiExlk18kL/?key=AIzaSyDliYimBJiQvxejchkhEbt2-AAmSRamMLU&alt=media" && si=3952673792 && ovan=u22   
-[ $var == 4 ] && l="https://www.googleapis.com/drive/v3/files/1nWpZb75sFLrmPicakni53xzJJCTF6Aex/?key=AIzaSyBhmN7QmiDbqagUnq9gBGqA-yZYx5FmKMk&alt=media" && si=926400000 && ovan=xp     
-[ $var == 5 ] && l="https://www.googleapis.com/drive/v3/files/1nHKPMOaNhJUljdfkl0EAcyyhLpUamzTA/?key=AIzaSyBhmN7QmiDbqagUnq9gBGqA-yZYx5FmKMk&alt=media" && si=2946750464 && ovan=w7    
-[ $var == 6 ] && l="https://www.googleapis.com/drive/v3/files/1ea6keftrrR7JMp9r5wyiVA_zYRE0zg-Q/?key=AIzaSyAt0u3A64Tl3_WCL4L_ihGY22p67RCI4wQ&alt=media" && si=5216114176 && ovan=w7f   
-[ $var == 7 ] && l="https://www.googleapis.com/drive/v3/files/1YCMzLda7OQQGrCgeHQGJc_-VFYrHzxCQ/?key=AIzaSyBhmN7QmiDbqagUnq9gBGqA-yZYx5FmKMk&alt=media" && si=5885943808 && ovan=w10   
-[ $var == 8 ] && l="https://www.googleapis.com/drive/v3/files/1DI-afV-2cBOeNpxMyMYLtm_WjB9pALr6/?key=AIzaSyCgtpLK0tle6L4ijI7PUtq35Xki1FGnaks&alt=media" && si=5934857216 && ovan=w2k8  
-[ $var == 9 ] && l="https://www.googleapis.com/drive/v3/files/1g0H24ox32Jw0lFCYg7Wnr19R99svHiXB/?key=AIzaSyCgtpLK0tle6L4ijI7PUtq35Xki1FGnaks&alt=media" && si=4764296192 && ovan=2k22 
-[ $var == 10 ] && l="https://www.googleapis.com/drive/v3/files/1mcGWtw9kleZ34sBra5h7NfiBEo9aASOG/?key=AIzaSyBhmN7QmiDbqagUnq9gBGqA-yZYx5FmKMk&alt=media" && si=4830297088 && ovan=w11  
-[ $var == 11 ] && l="https://www.googleapis.com/drive/v3/files/121vrZMj-OUxmyeBCNxMRMKUEYx2bP5Oq/?key=AIzaSyAt0u3A64Tl3_WCL4L_ihGY22p67RCI4wQ&alt=media" && si=2597497856  && ovan=w10c
+[ $var == 4 ] && l="https://www.googleapis.com/drive/v3/files/13jXUOQSpyEGXHzGecZY5Hg6khW0kR9xz/?key=AIzaSyBhmN7QmiDbqagUnq9gBGqA-yZYx5FmKMk&alt=media" && si=1172045824 && ovan=xp     
+[ $var == 5 ] && l="https://www.googleapis.com/drive/v3/files/15_T9Sl_yG4CWVbJMRpmEmLf4LrAubnW2/?key=AIzaSyBhmN7QmiDbqagUnq9gBGqA-yZYx5FmKMk&alt=media" && si=3067866112 && ovan=w7    
+[ $var == 6 ] && l="https://www.googleapis.com/drive/v3/files/1zstLks1X4-WX2Z47Q37rPjUtsI7VOgvj/?key=AIzaSyAt0u3A64Tl3_WCL4L_ihGY22p67RCI4wQ&alt=media" && si=7996131840 && ovan=w7f   
+[ $var == 7 ] && l="https://www.googleapis.com/drive/v3/files/1UycfpDqbtAjq6tVzAXuMwtbl5eOo6j1z/?key=AIzaSyBhmN7QmiDbqagUnq9gBGqA-yZYx5FmKMk&alt=media" && si=5893696512 && ovan=w10   
+[ $var == 8 ] && l="https://www.googleapis.com/drive/v3/files/1fTR6yQTjFLhfCb94hU7cUS1K3AAl4hxD/?key=AIzaSyCgtpLK0tle6L4ijI7PUtq35Xki1FGnaks&alt=media" && si=5930994688 && ovan=w2k8  
+[ $var == 9 ] && l="https://www.googleapis.com/drive/v3/files/1Q2R1S67p2sj_scScERfj4e5SHNWHpKdD/?key=AIzaSyCgtpLK0tle6L4ijI7PUtq35Xki1FGnaks&alt=media" && si=4712663040 && ovan=2k22 
+[ $var == 10 ] && l="https://www.googleapis.com/drive/v3/files/1prrOrfs7oc-bMg7ytyT4HFLikuVBBbFc/?key=AIzaSyAjS2du8B7ASFy_56T3T4pc5lRy-l7oaI8&alt=media" && si=6900383232 && ovan=w11  
+[ $var == 11 ] && l="https://www.googleapis.com/drive/v3/files/1SA9QJmx67trz-E_Sirh_Fe7Vu71SXd-N/?key=AIzaSyAt0u3A64Tl3_WCL4L_ihGY22p67RCI4wQ&alt=media" && si=3799419392  && ovan=w10c
 [ $var == 12 ] && exit
 #проверка, что введен верный вариант
 until [ "$var" -le "11" ] && [ "$var" -ge "1" ]
