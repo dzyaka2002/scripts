@@ -135,7 +135,7 @@ echo 3. Ubuntu 22 Desktop, размер образа -  3.7 Гб.
 echo 4. Windows XP x86, размер образа -  1.1 Гб. 
 echo 5. Windows 7 x86, размер образа -  2.8 Гб.
 echo 6. Windows 7 x64, размер образа -  7.5 Гб.
-echo 7. Windows 10, размер образа -  5.5 Гб.
+echo 7. Windows 10, размер образа -  7.5 Гб.
 echo 8. Windows 2008 R2 Server, размер образа -  5.5 Гб.
 echo 9. Windows 2022 Server, размер образа -  4.4 Гб.
 echo 10. Windows 11, размер образа - 6.5 Гб.
@@ -148,7 +148,7 @@ if %var%==3 set l="https://www.googleapis.com/drive/v3/files/12ihmMhK3AjeyeTqyLe
 if %var%==4 set l="https://www.googleapis.com/drive/v3/files/13jXUOQSpyEGXHzGecZY5Hg6khW0kR9xz/?key=AIzaSyBhmN7QmiDbqagUnq9gBGqA-yZYx5FmKMk&alt=media" & set si=1172045824 & set ovan=xp
 if %var%==5 set l="https://www.googleapis.com/drive/v3/files/15_T9Sl_yG4CWVbJMRpmEmLf4LrAubnW2/?key=AIzaSyBhmN7QmiDbqagUnq9gBGqA-yZYx5FmKMk&alt=media" & set si=3067866112 & set ovan=w7
 if %var%==6 set l="https://www.googleapis.com/drive/v3/files/1zstLks1X4-WX2Z47Q37rPjUtsI7VOgvj/?key=AIzaSyAt0u3A64Tl3_WCL4L_ihGY22p67RCI4wQ&alt=media" & set si=7996131840 & set ovan=w7f
-if %var%==7 set l="https://www.googleapis.com/drive/v3/files/1UycfpDqbtAjq6tVzAXuMwtbl5eOo6j1z/?key=AIzaSyBhmN7QmiDbqagUnq9gBGqA-yZYx5FmKMk&alt=media" & set si=5893696512 & set ovan=w10
+if %var%==7 set l="https://www.googleapis.com/drive/v3/files/1d56zmpWviYqTd5kkcq4PklsusD4lqx4a/?key=AIzaSyBhmN7QmiDbqagUnq9gBGqA-yZYx5FmKMk&alt=media" & set si=8020727808 & set ovan=w10
 if %var%==8 set l="https://www.googleapis.com/drive/v3/files/1fTR6yQTjFLhfCb94hU7cUS1K3AAl4hxD/?key=AIzaSyCgtpLK0tle6L4ijI7PUtq35Xki1FGnaks&alt=media" & set si=5930994688 & set ovan=w2k8
 if %var%==9 set l="https://www.googleapis.com/drive/v3/files/1Q2R1S67p2sj_scScERfj4e5SHNWHpKdD/?key=AIzaSyCgtpLK0tle6L4ijI7PUtq35Xki1FGnaks&alt=media" & set si=4712663040 & set ovan=2k22
 if %var%==10 set l="https://www.googleapis.com/drive/v3/files/1prrOrfs7oc-bMg7ytyT4HFLikuVBBbFc/?key=AIzaSyAjS2du8B7ASFy_56T3T4pc5lRy-l7oaI8&alt=media" & set si=6900383232 & set ovan=w11
