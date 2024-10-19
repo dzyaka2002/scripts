@@ -70,7 +70,7 @@ echo 6. Windows 7 x64, размер образа -  7.5 Гб.
 echo 7. Windows 10, размер образа -  7.5 Гб.
 echo 8. Windows 2008 R2 Server, размер образа -  5.5 Гб.
 echo 9. Windows 2022 Server, размер образа -  4.4 Гб.
-echo 10. Windows 11, размер образа - 6.5 Гб.
+echo 10. Windows 11, размер образа - 7 Гб.
 echo 11. Windows 10 урезанная версия, размер образа - 3.5 Гб.
 echo 12. Завершить работу скрипта.
 
@@ -84,7 +84,7 @@ read -p "Выберите необходимую ОС (введите нужну
 [ $var == 7 ] && l="https://www.googleapis.com/drive/v3/files/1d56zmpWviYqTd5kkcq4PklsusD4lqx4a/?key=AIzaSyBhmN7QmiDbqagUnq9gBGqA-yZYx5FmKMk&alt=media" && si=8020727808 && ovan=w10   
 [ $var == 8 ] && l="https://www.googleapis.com/drive/v3/files/1fTR6yQTjFLhfCb94hU7cUS1K3AAl4hxD/?key=AIzaSyCgtpLK0tle6L4ijI7PUtq35Xki1FGnaks&alt=media" && si=5930994688 && ovan=w2k8  
 [ $var == 9 ] && l="https://www.googleapis.com/drive/v3/files/1Q2R1S67p2sj_scScERfj4e5SHNWHpKdD/?key=AIzaSyCgtpLK0tle6L4ijI7PUtq35Xki1FGnaks&alt=media" && si=4712663040 && ovan=2k22 
-[ $var == 10 ] && l="https://www.googleapis.com/drive/v3/files/1prrOrfs7oc-bMg7ytyT4HFLikuVBBbFc/?key=AIzaSyAjS2du8B7ASFy_56T3T4pc5lRy-l7oaI8&alt=media" && si=6900383232 && ovan=w11  
+[ $var == 10 ] && l="https://www.googleapis.com/drive/v3/files/1ut6zencqNDPLJKm8HF82k93e37_Pgz1U/?key=AIzaSyAjS2du8B7ASFy_56T3T4pc5lRy-l7oaI8&alt=media" && si=7443925504 && ovan=w11  
 [ $var == 11 ] && l="https://www.googleapis.com/drive/v3/files/1SA9QJmx67trz-E_Sirh_Fe7Vu71SXd-N/?key=AIzaSyAt0u3A64Tl3_WCL4L_ihGY22p67RCI4wQ&alt=media" && si=3799419392  && ovan=w10c
 [ $var == 12 ] && exit
 #проверка, что введен верный вариант
