@@ -139,7 +139,7 @@ echo 7. Windows 10, размер образа -  5.5 Гб.
 echo 8. Windows 2008 R2 Server, размер образа -  5.5 Гб.
 echo 9. Windows 2022 Server, размер образа -  4.4 Гб.
 echo 10. Windows 11, размер образа - 7 Гб.
-echo 11. Windows 10 урезанная версия, размер образа - 3.5 Гб.
+echo 11. Windows 10 урезанная версия, размер образа - 3.6 Гб.
 echo 12. Завершить работу скрипта.
 set /p var=Выберите необходимую ОС (введите нужную цифру 1/2/3/4/5/6/7/8/9/10/11/12):
 if %var%==1 set l="https://www.googleapis.com/drive/v3/files/1hRMXIrCUrThimSLwX30YUo01cjLuI_20/?key=AIzaSyDliYimBJiQvxejchkhEbt2-AAmSRamMLU&alt=media" & set si=454969856 & set ovan=u14
@@ -152,7 +152,7 @@ if %var%==7 set l="https://www.googleapis.com/drive/v3/files/1CQM5tyz59cO6O1Nldu
 if %var%==8 set l="https://www.googleapis.com/drive/v3/files/1fTR6yQTjFLhfCb94hU7cUS1K3AAl4hxD/?key=AIzaSyCgtpLK0tle6L4ijI7PUtq35Xki1FGnaks&alt=media" & set si=5930994688 & set ovan=w2k8
 if %var%==9 set l="https://www.googleapis.com/drive/v3/files/1Q2R1S67p2sj_scScERfj4e5SHNWHpKdD/?key=AIzaSyCgtpLK0tle6L4ijI7PUtq35Xki1FGnaks&alt=media" & set si=4712663040 & set ovan=2k22
 if %var%==10 set l="https://www.googleapis.com/drive/v3/files/1ut6zencqNDPLJKm8HF82k93e37_Pgz1U/?key=AIzaSyAjS2du8B7ASFy_56T3T4pc5lRy-l7oaI8&alt=media" & set si=7443925504 & set ovan=w11
-if %var%==11 set l="https://www.googleapis.com/drive/v3/files/1SA9QJmx67trz-E_Sirh_Fe7Vu71SXd-N/?key=AIzaSyAt0u3A64Tl3_WCL4L_ihGY22p67RCI4wQ&alt=media" & set si=3799419392 & set ovan=w10c
+if %var%==11 set l="https://www.googleapis.com/drive/v3/files/16siMzoYCDtVOIwWeJoaAylaNAZp0QTgL/?key=AIzaSyAt0u3A64Tl3_WCL4L_ihGY22p67RCI4wQ&alt=media" & set si=3879451648 & set ovan=w10c
 if %var%==12 exit
 
 rem проверка того, что введен верный вариант
