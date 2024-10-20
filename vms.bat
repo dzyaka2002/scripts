@@ -134,7 +134,7 @@ echo 2. Ubuntu 18 Desktop, размер образа -  2.3 Гб.
 echo 3. Ubuntu 22 Desktop, размер образа -  3.7 Гб. 
 echo 4. Windows XP x86, размер образа -  1.1 Гб. 
 echo 5. Windows 7 x86, размер образа -  2.8 Гб.
-echo 6. Windows 7 x64, размер образа -  7.5 Гб.
+echo 6. Windows 7 x64, размер образа -  7 Гб.
 echo 7. Windows 10, размер образа -  5.5 Гб.
 echo 8. Windows 2008 R2 Server, размер образа -  5.5 Гб.
 echo 9. Windows 2022 Server, размер образа -  4.4 Гб.
@@ -147,7 +147,7 @@ if %var%==2 set l="https://www.googleapis.com/drive/v3/files/1RUFFDBiwgouZgRmZgd
 if %var%==3 set l="https://www.googleapis.com/drive/v3/files/12ihmMhK3AjeyeTqyLegewQhiExlk18kL/?key=AIzaSyDliYimBJiQvxejchkhEbt2-AAmSRamMLU&alt=media" & set si=3952673792 & set ovan=u22
 if %var%==4 set l="https://www.googleapis.com/drive/v3/files/1_3G6x2OZLKipZh6vV5J7mX1kPfFeo0Ib/?key=AIzaSyBhmN7QmiDbqagUnq9gBGqA-yZYx5FmKMk&alt=media" & set si=1187202560 & set ovan=xp
 if %var%==5 set l="https://www.googleapis.com/drive/v3/files/15_T9Sl_yG4CWVbJMRpmEmLf4LrAubnW2/?key=AIzaSyBhmN7QmiDbqagUnq9gBGqA-yZYx5FmKMk&alt=media" & set si=3067866112 & set ovan=w7
-if %var%==6 set l="https://www.googleapis.com/drive/v3/files/1zstLks1X4-WX2Z47Q37rPjUtsI7VOgvj/?key=AIzaSyAt0u3A64Tl3_WCL4L_ihGY22p67RCI4wQ&alt=media" & set si=7996131840 & set ovan=w7f
+if %var%==6 set l="https://www.googleapis.com/drive/v3/files/1aHW3LOE1g1y75lyVmmC1CWwP3PqWNTdb/?key=AIzaSyAt0u3A64Tl3_WCL4L_ihGY22p67RCI4wQ&alt=media" & set si=7471829504 & set ovan=w7f
 if %var%==7 set l="https://www.googleapis.com/drive/v3/files/1CQM5tyz59cO6O1Nldui2KAhUD1JvOl-9/?key=AIzaSyBhmN7QmiDbqagUnq9gBGqA-yZYx5FmKMk&alt=media" & set si=6003269632 & set ovan=w10
 if %var%==8 set l="https://www.googleapis.com/drive/v3/files/1fTR6yQTjFLhfCb94hU7cUS1K3AAl4hxD/?key=AIzaSyCgtpLK0tle6L4ijI7PUtq35Xki1FGnaks&alt=media" & set si=5930994688 & set ovan=w2k8
 if %var%==9 set l="https://www.googleapis.com/drive/v3/files/1Q2R1S67p2sj_scScERfj4e5SHNWHpKdD/?key=AIzaSyCgtpLK0tle6L4ijI7PUtq35Xki1FGnaks&alt=media" & set si=4712663040 & set ovan=2k22
