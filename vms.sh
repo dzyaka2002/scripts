@@ -67,7 +67,7 @@ echo 3. Ubuntu 22 Desktop, размер образа -  3.7 Гб.
 echo 4. Windows XP x86, размер образа -  1.1 Гб. 
 echo 5. Windows 7 x86, размер образа -  2.8 Гб.
 echo 6. Windows 7 x64, размер образа -  7 Гб.
-echo 7. Windows 10, размер образа -  5.5 Гб.
+echo 7. Windows 10, размер образа -  6 Гб.
 echo 8. Windows 2008 R2 Server, размер образа -  5.5 Гб.
 echo 9. Windows 2022 Server, размер образа -  4.4 Гб.
 echo 10. Windows 11, размер образа - 7 Гб.
@@ -81,11 +81,11 @@ read -p "Выберите необходимую ОС (введите нужну
 [ $var == 4 ] && l="https://www.googleapis.com/drive/v3/files/1_3G6x2OZLKipZh6vV5J7mX1kPfFeo0Ib/?key=AIzaSyBhmN7QmiDbqagUnq9gBGqA-yZYx5FmKMk&alt=media" && si=1187202560 && ovan=xp     
 [ $var == 5 ] && l="https://www.googleapis.com/drive/v3/files/15_T9Sl_yG4CWVbJMRpmEmLf4LrAubnW2/?key=AIzaSyBhmN7QmiDbqagUnq9gBGqA-yZYx5FmKMk&alt=media" && si=3067866112 && ovan=w7    
 [ $var == 6 ] && l="https://www.googleapis.com/drive/v3/files/1aHW3LOE1g1y75lyVmmC1CWwP3PqWNTdb/?key=AIzaSyAt0u3A64Tl3_WCL4L_ihGY22p67RCI4wQ&alt=media" && si=7471829504 && ovan=w7f   
-[ $var == 7 ] && l="https://www.googleapis.com/drive/v3/files/1CQM5tyz59cO6O1Nldui2KAhUD1JvOl-9/?key=AIzaSyBhmN7QmiDbqagUnq9gBGqA-yZYx5FmKMk&alt=media" && si=6003269632 && ovan=w10   
+[ $var == 7 ] && l="https://www.googleapis.com/drive/v3/files/1eKhoDaDN320hLIPo5G1jdlLPlgtKVx8T/?key=AIzaSyBhmN7QmiDbqagUnq9gBGqA-yZYx5FmKMk&alt=media" && si=6417490432 && ovan=w10   
 [ $var == 8 ] && l="https://www.googleapis.com/drive/v3/files/1fTR6yQTjFLhfCb94hU7cUS1K3AAl4hxD/?key=AIzaSyCgtpLK0tle6L4ijI7PUtq35Xki1FGnaks&alt=media" && si=5930994688 && ovan=w2k8  
 [ $var == 9 ] && l="https://www.googleapis.com/drive/v3/files/1Q2R1S67p2sj_scScERfj4e5SHNWHpKdD/?key=AIzaSyCgtpLK0tle6L4ijI7PUtq35Xki1FGnaks&alt=media" && si=4712663040 && ovan=2k22 
 [ $var == 10 ] && l="https://www.googleapis.com/drive/v3/files/1ut6zencqNDPLJKm8HF82k93e37_Pgz1U/?key=AIzaSyAjS2du8B7ASFy_56T3T4pc5lRy-l7oaI8&alt=media" && si=7443925504 && ovan=w11  
-[ $var == 11 ] && l="https://www.googleapis.com/drive/v3/files/16siMzoYCDtVOIwWeJoaAylaNAZp0QTgL/?key=AIzaSyAt0u3A64Tl3_WCL4L_ihGY22p67RCI4wQ&alt=media" && si=3879451648  && ovan=w10c
+[ $var == 11 ] && l="https://www.googleapis.com/drive/v3/files/1VNACDs09i2P5LCkhpVRC__rtiE4LR31R/?key=AIzaSyAt0u3A64Tl3_WCL4L_ihGY22p67RCI4wQ&alt=media" && si=3890776576  && ovan=w10c
 [ $var == 12 ] && exit
 #проверка, что введен верный вариант
 until [ "$var" -le "11" ] && [ "$var" -ge "1" ]
