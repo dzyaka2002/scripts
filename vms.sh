@@ -62,8 +62,8 @@ l3(){
 echo
 echo Операционные системы:
 echo 1. Ubuntu 14 Server, размер образа - 0.5 Гб.
-echo 2. Ubuntu 18 Desktop, размер образа -  2.3 Гб.
-echo 3. Ubuntu 22 Desktop, размер образа -  3.7 Гб. 
+echo 2. Ubuntu 18 Desktop, размер образа -  2.4 Гб.
+echo 3. Ubuntu 22 Desktop, размер образа -  3.8 Гб. 
 echo 4. Windows XP x86, размер образа -  1.1 Гб. 
 echo 5. Windows 7 x86, размер образа -  2.8 Гб.
 echo 6. Windows 7 x64, размер образа -  7 Гб.
@@ -76,8 +76,8 @@ echo 12. Завершить работу скрипта.
 
 read -p "Выберите необходимую ОС (введите нужную цифру 1/2/3/4/5/6/7/8/9/10/11/12):" var
 [ $var == 1 ] && l="https://www.googleapis.com/drive/v3/files/1hRMXIrCUrThimSLwX30YUo01cjLuI_20/?key=AIzaSyDliYimBJiQvxejchkhEbt2-AAmSRamMLU&alt=media" && si=454969856 && ovan=u14    
-[ $var == 2 ] && l="https://www.googleapis.com/drive/v3/files/1RUFFDBiwgouZgRmZgdQGfRyNBOQnewzb/?key=AIzaSyDliYimBJiQvxejchkhEbt2-AAmSRamMLU&alt=media" && si=2501635584 && ovan=u18   
-[ $var == 3 ] && l="https://www.googleapis.com/drive/v3/files/12ihmMhK3AjeyeTqyLegewQhiExlk18kL/?key=AIzaSyDliYimBJiQvxejchkhEbt2-AAmSRamMLU&alt=media" && si=3952673792 && ovan=u22   
+[ $var == 2 ] && l="https://www.googleapis.com/drive/v3/files/1d_iBRWBQxshzQeykvrilDdzbj2jgxfYv/?key=AIzaSyDliYimBJiQvxejchkhEbt2-AAmSRamMLU&alt=media" && si=2523062784 && ovan=u18   
+[ $var == 3 ] && l="https://www.googleapis.com/drive/v3/files/1N4uE7nd6u15aiEjSFAaLodeG41DFFhkr/?key=AIzaSyDliYimBJiQvxejchkhEbt2-AAmSRamMLU&alt=media" && si=4068600832 && ovan=u22   
 [ $var == 4 ] && l="https://www.googleapis.com/drive/v3/files/1_3G6x2OZLKipZh6vV5J7mX1kPfFeo0Ib/?key=AIzaSyBhmN7QmiDbqagUnq9gBGqA-yZYx5FmKMk&alt=media" && si=1187202560 && ovan=xp     
 [ $var == 5 ] && l="https://www.googleapis.com/drive/v3/files/15_T9Sl_yG4CWVbJMRpmEmLf4LrAubnW2/?key=AIzaSyBhmN7QmiDbqagUnq9gBGqA-yZYx5FmKMk&alt=media" && si=3067866112 && ovan=w7    
 [ $var == 6 ] && l="https://www.googleapis.com/drive/v3/files/1aHW3LOE1g1y75lyVmmC1CWwP3PqWNTdb/?key=AIzaSyAt0u3A64Tl3_WCL4L_ihGY22p67RCI4wQ&alt=media" && si=7471829504 && ovan=w7f   
