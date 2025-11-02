@@ -130,8 +130,8 @@ pause
 :l4
 echo Операционные системы:
 echo 1. Ubuntu 14 Server, размер образа - 0.5 Гб.
-echo 2. Ubuntu 18 Desktop, размер образа -  2.3 Гб.
-echo 3. Ubuntu 22 Desktop, размер образа -  3.7 Гб. 
+echo 2. Ubuntu 18 Desktop, размер образа -  2.4 Гб.
+echo 3. Ubuntu 22 Desktop, размер образа -  3.8 Гб. 
 echo 4. Windows XP x86, размер образа -  1.1 Гб. 
 echo 5. Windows 7 x86, размер образа -  2.8 Гб.
 echo 6. Windows 7 x64, размер образа -  7 Гб.
@@ -143,8 +143,8 @@ echo 11. Windows 10 урезанная версия, размер образа -
 echo 12. Завершить работу скрипта.
 set /p var=Выберите необходимую ОС (введите нужную цифру 1/2/3/4/5/6/7/8/9/10/11/12):
 if %var%==1 set l="https://www.googleapis.com/drive/v3/files/1hRMXIrCUrThimSLwX30YUo01cjLuI_20/?key=AIzaSyDliYimBJiQvxejchkhEbt2-AAmSRamMLU&alt=media" & set si=454969856 & set ovan=u14
-if %var%==2 set l="https://www.googleapis.com/drive/v3/files/1RUFFDBiwgouZgRmZgdQGfRyNBOQnewzb/?key=AIzaSyDliYimBJiQvxejchkhEbt2-AAmSRamMLU&alt=media" & set si=2501635584 & set ovan=u18
-if %var%==3 set l="https://www.googleapis.com/drive/v3/files/12ihmMhK3AjeyeTqyLegewQhiExlk18kL/?key=AIzaSyDliYimBJiQvxejchkhEbt2-AAmSRamMLU&alt=media" & set si=3952673792 & set ovan=u22
+if %var%==2 set l="https://www.googleapis.com/drive/v3/files/1d_iBRWBQxshzQeykvrilDdzbj2jgxfYv/?key=AIzaSyDliYimBJiQvxejchkhEbt2-AAmSRamMLU&alt=media" & set si=2523062784 & set ovan=u18
+if %var%==3 set l="https://www.googleapis.com/drive/v3/files/1N4uE7nd6u15aiEjSFAaLodeG41DFFhkr/?key=AIzaSyDliYimBJiQvxejchkhEbt2-AAmSRamMLU&alt=media" & set si=4068600832 & set ovan=u22
 if %var%==4 set l="https://www.googleapis.com/drive/v3/files/1_3G6x2OZLKipZh6vV5J7mX1kPfFeo0Ib/?key=AIzaSyBhmN7QmiDbqagUnq9gBGqA-yZYx5FmKMk&alt=media" & set si=1187202560 & set ovan=xp
 if %var%==5 set l="https://www.googleapis.com/drive/v3/files/15_T9Sl_yG4CWVbJMRpmEmLf4LrAubnW2/?key=AIzaSyBhmN7QmiDbqagUnq9gBGqA-yZYx5FmKMk&alt=media" & set si=3067866112 & set ovan=w7
 if %var%==6 set l="https://www.googleapis.com/drive/v3/files/1aHW3LOE1g1y75lyVmmC1CWwP3PqWNTdb/?key=AIzaSyAt0u3A64Tl3_WCL4L_ihGY22p67RCI4wQ&alt=media" & set si=7471829504 & set ovan=w7f
@@ -208,3 +208,4 @@ if exist "%f1%\%i2%" echo Операция успешно завершена! В
 if not exist "%f1%\%i2%" echo Не удалось создать ВМ.
 goto l0
                                              
+
