@@ -131,29 +131,31 @@ pause
 echo Операционные системы:
 echo 1. Ubuntu 14 Server, размер образа - 0.5 Гб.
 echo 2. Ubuntu 18 Desktop, размер образа -  2.4 Гб.
-echo 3. Ubuntu 22 Desktop, размер образа -  3.8 Гб. 
-echo 4. Windows XP x86, размер образа -  1.1 Гб. 
-echo 5. Windows 7 x86, размер образа -  2.8 Гб.
-echo 6. Windows 7 x64, размер образа -  7 Гб.
-echo 7. Windows 10, размер образа -  6 Гб.
-echo 8. Windows 2008 R2 Server, размер образа -  5.5 Гб.
-echo 9. Windows 2022 Server, размер образа -  4.4 Гб.
-echo 10. Windows 11, размер образа - 7 Гб.
-echo 11. Windows 10 урезанная версия, размер образа - 3.6 Гб.
-echo 12. Завершить работу скрипта.
-set /p var=Выберите необходимую ОС (введите нужную цифру 1/2/3/4/5/6/7/8/9/10/11/12):
+echo 3. Ubuntu 22 Desktop, размер образа -  3.8 Гб.
+echo 4  Ubuntu 24 Desktop, размер образа - 6.4 Гб.
+echo 5. Windows XP x86, размер образа -  1.1 Гб. 
+echo 6. Windows 7 x86, размер образа -  2.8 Гб.
+echo 7. Windows 7 x64, размер образа -  7 Гб.
+echo 8. Windows 10, размер образа -  6 Гб.
+echo 9. Windows 2008 R2 Server, размер образа -  5.5 Гб.
+echo 10. Windows 2022 Server, размер образа -  4.4 Гб.
+echo 11. Windows 11, размер образа - 7 Гб.
+echo 12. Windows 10 урезанная версия, размер образа - 3.6 Гб.
+echo 13. Завершить работу скрипта.
+set /p var=Выберите необходимую ОС (введите нужную цифру 1/2/3/4/5/6/7/8/9/10/11/12.13):
 if %var%==1 set l="https://www.googleapis.com/drive/v3/files/1hRMXIrCUrThimSLwX30YUo01cjLuI_20/?key=AIzaSyDliYimBJiQvxejchkhEbt2-AAmSRamMLU&alt=media" & set si=454969856 & set ovan=u14
 if %var%==2 set l="https://www.googleapis.com/drive/v3/files/1d_iBRWBQxshzQeykvrilDdzbj2jgxfYv/?key=AIzaSyDliYimBJiQvxejchkhEbt2-AAmSRamMLU&alt=media" & set si=2523062784 & set ovan=u18
 if %var%==3 set l="https://www.googleapis.com/drive/v3/files/1N4uE7nd6u15aiEjSFAaLodeG41DFFhkr/?key=AIzaSyDliYimBJiQvxejchkhEbt2-AAmSRamMLU&alt=media" & set si=4068600832 & set ovan=u22
-if %var%==4 set l="https://www.googleapis.com/drive/v3/files/1_3G6x2OZLKipZh6vV5J7mX1kPfFeo0Ib/?key=AIzaSyBhmN7QmiDbqagUnq9gBGqA-yZYx5FmKMk&alt=media" & set si=1187202560 & set ovan=xp
-if %var%==5 set l="https://www.googleapis.com/drive/v3/files/15_T9Sl_yG4CWVbJMRpmEmLf4LrAubnW2/?key=AIzaSyBhmN7QmiDbqagUnq9gBGqA-yZYx5FmKMk&alt=media" & set si=3067866112 & set ovan=w7
-if %var%==6 set l="https://www.googleapis.com/drive/v3/files/1aHW3LOE1g1y75lyVmmC1CWwP3PqWNTdb/?key=AIzaSyAt0u3A64Tl3_WCL4L_ihGY22p67RCI4wQ&alt=media" & set si=7471829504 & set ovan=w7f
-if %var%==7 set l="https://www.googleapis.com/drive/v3/files/1eKhoDaDN320hLIPo5G1jdlLPlgtKVx8T/?key=AIzaSyBhmN7QmiDbqagUnq9gBGqA-yZYx5FmKMk&alt=media" & set si=6417490432 & set ovan=w10
-if %var%==8 set l="https://www.googleapis.com/drive/v3/files/1fTR6yQTjFLhfCb94hU7cUS1K3AAl4hxD/?key=AIzaSyCgtpLK0tle6L4ijI7PUtq35Xki1FGnaks&alt=media" & set si=5930994688 & set ovan=w2k8
-if %var%==9 set l="https://www.googleapis.com/drive/v3/files/1Q2R1S67p2sj_scScERfj4e5SHNWHpKdD/?key=AIzaSyCgtpLK0tle6L4ijI7PUtq35Xki1FGnaks&alt=media" & set si=4712663040 & set ovan=2k22
-if %var%==10 set l="https://www.googleapis.com/drive/v3/files/1ut6zencqNDPLJKm8HF82k93e37_Pgz1U/?key=AIzaSyAjS2du8B7ASFy_56T3T4pc5lRy-l7oaI8&alt=media" & set si=7443925504 & set ovan=w11
-if %var%==11 set l="https://www.googleapis.com/drive/v3/files/1VNACDs09i2P5LCkhpVRC__rtiE4LR31R/?key=AIzaSyAt0u3A64Tl3_WCL4L_ihGY22p67RCI4wQ&alt=media" & set si=3890776576 & set ovan=w10c
-if %var%==12 exit
+if %var%==4 set l="https://www.googleapis.com/drive/v3/files/1o_Dm80wNA2ixY4Wl9jH_nly1nH6JNnDA/?key=AIzaSyD8K5qVaM7-gThnjnotPtoZPU48TaQCFjg&alt=media" & set si=6843278848 & set ovan=u24
+if %var%==5 set l="https://www.googleapis.com/drive/v3/files/1_3G6x2OZLKipZh6vV5J7mX1kPfFeo0Ib/?key=AIzaSyBhmN7QmiDbqagUnq9gBGqA-yZYx5FmKMk&alt=media" & set si=1187202560 & set ovan=xp
+if %var%==6 set l="https://www.googleapis.com/drive/v3/files/15_T9Sl_yG4CWVbJMRpmEmLf4LrAubnW2/?key=AIzaSyBhmN7QmiDbqagUnq9gBGqA-yZYx5FmKMk&alt=media" & set si=3067866112 & set ovan=w7
+if %var%==7 set l="https://www.googleapis.com/drive/v3/files/1aHW3LOE1g1y75lyVmmC1CWwP3PqWNTdb/?key=AIzaSyAt0u3A64Tl3_WCL4L_ihGY22p67RCI4wQ&alt=media" & set si=7471829504 & set ovan=w7f
+if %var%==8 set l="https://www.googleapis.com/drive/v3/files/1eKhoDaDN320hLIPo5G1jdlLPlgtKVx8T/?key=AIzaSyBhmN7QmiDbqagUnq9gBGqA-yZYx5FmKMk&alt=media" & set si=6417490432 & set ovan=w10
+if %var%==9 set l="https://www.googleapis.com/drive/v3/files/1fTR6yQTjFLhfCb94hU7cUS1K3AAl4hxD/?key=AIzaSyCgtpLK0tle6L4ijI7PUtq35Xki1FGnaks&alt=media" & set si=5930994688 & set ovan=w2k8
+if %var%==10 set l="https://www.googleapis.com/drive/v3/files/1Q2R1S67p2sj_scScERfj4e5SHNWHpKdD/?key=AIzaSyCgtpLK0tle6L4ijI7PUtq35Xki1FGnaks&alt=media" & set si=4712663040 & set ovan=2k22
+if %var%==11 set l="https://www.googleapis.com/drive/v3/files/1ut6zencqNDPLJKm8HF82k93e37_Pgz1U/?key=AIzaSyAjS2du8B7ASFy_56T3T4pc5lRy-l7oaI8&alt=media" & set si=7443925504 & set ovan=w11
+if %var%==12 set l="https://www.googleapis.com/drive/v3/files/1VNACDs09i2P5LCkhpVRC__rtiE4LR31R/?key=AIzaSyAt0u3A64Tl3_WCL4L_ihGY22p67RCI4wQ&alt=media" & set si=3890776576 & set ovan=w10c
+if %var%==13 exit
 
 rem проверка того, что введен верный вариант
 if %var%==1 goto next 
@@ -167,6 +169,7 @@ if %var%==8 goto next
 if %var%==9 goto next
 if %var%==10 goto next
 if %var%==11 goto next
+if %var%==12 goto next
 exit
 
 :next
@@ -208,4 +211,5 @@ if exist "%f1%\%i2%" echo Операция успешно завершена! В
 if not exist "%f1%\%i2%" echo Не удалось создать ВМ.
 goto l0
                                              
+
 
