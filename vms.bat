@@ -146,8 +146,8 @@ set /p var=Выберите необходимую ОС (введите нужн
 if %var%==1 set l="https://www.googleapis.com/drive/v3/files/1hRMXIrCUrThimSLwX30YUo01cjLuI_20/?key=AIzaSyDliYimBJiQvxejchkhEbt2-AAmSRamMLU&alt=media" & set si=454969856 & set ovan=u14
 if %var%==2 set l="https://www.googleapis.com/drive/v3/files/1d_iBRWBQxshzQeykvrilDdzbj2jgxfYv/?key=AIzaSyDliYimBJiQvxejchkhEbt2-AAmSRamMLU&alt=media" & set si=2523062784 & set ovan=u18
 if %var%==3 set l="https://www.googleapis.com/drive/v3/files/1N4uE7nd6u15aiEjSFAaLodeG41DFFhkr/?key=AIzaSyDliYimBJiQvxejchkhEbt2-AAmSRamMLU&alt=media" & set si=4068600832 & set ovan=u22
-if %var%==4 set l="https://www.googleapis.com/drive/v3/files/1fuNZevAyw2RMLlFwr4FiEtF1ueRKAEl5/?key=AIzaSyD8K5qVaM7-gThnjnotPtoZPU48TaQCFjg&alt=media" & set si=6843278848 & set ovan=u24
-if %var%==5 set l="https://www.googleapis.com/drive/v3/files/1JLVhW5peR7eK2SFyhp9auk9oanJqibca/?key=AIzaSyBhmN7QmiDbqagUnq9gBGqA-yZYx5FmKMk&alt=media" & set si=612539392 & set ovan=xp
+if %var%==4 set l="https://www.googleapis.com/drive/v3/files/1fuNZevAyw2RMLlFwr4FiEtF1ueRKAEl5/?key=AIzaSyD8K5qVaM7-gThnjnotPtoZPU48TaQCFjg&alt=media" & set si=6850513408 & set ovan=u24
+if %var%==5 set l="https://www.googleapis.com/drive/v3/files/1tVV36d_hAQMFv65rZcuuYtlOZpOvDA0_/?key=AIzaSyBhmN7QmiDbqagUnq9gBGqA-yZYx5FmKMk&alt=media" & set si=612539392 & set ovan=xp
 if %var%==6 set l="https://www.googleapis.com/drive/v3/files/15_T9Sl_yG4CWVbJMRpmEmLf4LrAubnW2/?key=AIzaSyBhmN7QmiDbqagUnq9gBGqA-yZYx5FmKMk&alt=media" & set si=3067866112 & set ovan=w7
 if %var%==7 set l="https://www.googleapis.com/drive/v3/files/1aHW3LOE1g1y75lyVmmC1CWwP3PqWNTdb/?key=AIzaSyAt0u3A64Tl3_WCL4L_ihGY22p67RCI4wQ&alt=media" & set si=7471829504 & set ovan=w7f
 if %var%==8 set l="https://www.googleapis.com/drive/v3/files/1eKhoDaDN320hLIPo5G1jdlLPlgtKVx8T/?key=AIzaSyBhmN7QmiDbqagUnq9gBGqA-yZYx5FmKMk&alt=media" & set si=6417490432 & set ovan=w10
@@ -211,6 +211,7 @@ if exist "%f1%\%i2%" echo Операция успешно завершена! В
 if not exist "%f1%\%i2%" echo Не удалось создать ВМ.
 goto l0
                                              
+
 
 
 
