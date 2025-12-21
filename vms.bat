@@ -132,7 +132,7 @@ echo Операционные системы:
 echo 1. Ubuntu 14 Server, размер образа - 0.5 Гб.
 echo 2. Ubuntu 18 Desktop, размер образа -  2.4 Гб.
 echo 3. Ubuntu 22 Desktop, размер образа -  3.8 Гб.
-echo 4  Ubuntu 24 Desktop, размер образа - 6.4 Гб.
+echo 4. Ubuntu 24 Desktop, размер образа - 6.4 Гб.
 echo 5. Windows XP x86, размер образа -  0.6 Гб. 
 echo 6. Windows 7 x86, размер образа -  2.8 Гб.
 echo 7. Windows 7 x64, размер образа -  7 Гб.
@@ -211,6 +211,7 @@ if exist "%f1%\%i2%" echo Операция успешно завершена! В
 if not exist "%f1%\%i2%" echo Не удалось создать ВМ.
 goto l0
                                              
+
 
 
 
