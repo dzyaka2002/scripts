@@ -134,7 +134,7 @@ echo 2. Ubuntu 18 Desktop, размер образа -  2.4 Гб.
 echo 3. Ubuntu 22 Desktop, размер образа -  3.8 Гб.
 echo 4. Ubuntu 24 Desktop, размер образа - 6.4 Гб.
 echo 5. Windows XP x86, размер образа -  0.6 Гб. 
-echo 6. Windows 7 x86, размер образа -  2.8 Гб.
+echo 6. Windows 7 x86, размер образа -  3 Гб.
 echo 7. Windows 7 x64, размер образа -  7 Гб.
 echo 8. Windows 10, размер образа -  6 Гб.
 echo 9. Windows 2008 R2 Server, размер образа -  5.5 Гб.
@@ -146,9 +146,9 @@ set /p var=Выберите необходимую ОС (введите нужн
 if %var%==1 set l="https://www.googleapis.com/drive/v3/files/1hRMXIrCUrThimSLwX30YUo01cjLuI_20/?key=AIzaSyDliYimBJiQvxejchkhEbt2-AAmSRamMLU&alt=media" & set si=454969856 & set ovan=u14
 if %var%==2 set l="https://www.googleapis.com/drive/v3/files/1d_iBRWBQxshzQeykvrilDdzbj2jgxfYv/?key=AIzaSyDliYimBJiQvxejchkhEbt2-AAmSRamMLU&alt=media" & set si=2523062784 & set ovan=u18
 if %var%==3 set l="https://www.googleapis.com/drive/v3/files/1N4uE7nd6u15aiEjSFAaLodeG41DFFhkr/?key=AIzaSyDliYimBJiQvxejchkhEbt2-AAmSRamMLU&alt=media" & set si=4068600832 & set ovan=u22
-if %var%==4 set l="https://www.googleapis.com/drive/v3/files/1M5tp-CtY4YPW5KBpHCRqIpnFG5NpYp4f/?key=AIzaSyD8K5qVaM7-gThnjnotPtoZPU48TaQCFjg&alt=media" & set si=6850513408 & set ovan=u24
+if %var%==4 set l="https://www.googleapis.com/drive/v3/files/1GYvCeq8Zmww2Go5EUKxVwTShzoEp_M6A/?key=AIzaSyD8K5qVaM7-gThnjnotPtoZPU48TaQCFjg&alt=media" & set si=6850513408 & set ovan=u24
 if %var%==5 set l="https://www.googleapis.com/drive/v3/files/1tVV36d_hAQMFv65rZcuuYtlOZpOvDA0_/?key=AIzaSyBhmN7QmiDbqagUnq9gBGqA-yZYx5FmKMk&alt=media" & set si=612539392 & set ovan=xp
-if %var%==6 set l="https://www.googleapis.com/drive/v3/files/15_T9Sl_yG4CWVbJMRpmEmLf4LrAubnW2/?key=AIzaSyBhmN7QmiDbqagUnq9gBGqA-yZYx5FmKMk&alt=media" & set si=3067866112 & set ovan=w7
+if %var%==6 set l="https://www.googleapis.com/drive/v3/files/1rrPwMHUGAy7VhZ_hKWo8yn1X8g4Qu9m-/?key=AIzaSyBhmN7QmiDbqagUnq9gBGqA-yZYx5FmKMk&alt=media" & set si=3067866112 & set ovan=w7
 if %var%==7 set l="https://www.googleapis.com/drive/v3/files/1aHW3LOE1g1y75lyVmmC1CWwP3PqWNTdb/?key=AIzaSyAt0u3A64Tl3_WCL4L_ihGY22p67RCI4wQ&alt=media" & set si=7471829504 & set ovan=w7f
 if %var%==8 set l="https://www.googleapis.com/drive/v3/files/1eKhoDaDN320hLIPo5G1jdlLPlgtKVx8T/?key=AIzaSyBhmN7QmiDbqagUnq9gBGqA-yZYx5FmKMk&alt=media" & set si=6417490432 & set ovan=w10
 if %var%==9 set l="https://www.googleapis.com/drive/v3/files/1fTR6yQTjFLhfCb94hU7cUS1K3AAl4hxD/?key=AIzaSyCgtpLK0tle6L4ijI7PUtq35Xki1FGnaks&alt=media" & set si=5930994688 & set ovan=w2k8
@@ -211,6 +211,7 @@ if exist "%f1%\%i2%" echo Операция успешно завершена! В
 if not exist "%f1%\%i2%" echo Не удалось создать ВМ.
 goto l0
                                              
+
 
 
 
