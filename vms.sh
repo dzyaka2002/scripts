@@ -66,7 +66,7 @@ echo 2. Ubuntu 18 Desktop, размер образа -  2.4 Гб.
 echo 3. Ubuntu 22 Desktop, размер образа -  3.8 Гб.
 echo 4. Ubuntu 24 Desktop, размер образа - 6.4 Гб.
 echo 5. Windows XP x86, размер образа -  0.6 Гб. 
-echo 6. Windows 7 x86, размер образа -  2.8 Гб.
+echo 6. Windows 7 x86, размер образа -  3 Гб.
 echo 7. Windows 7 x64, размер образа -  7 Гб.
 echo 8. Windows 10, размер образа -  6 Гб.
 echo 9. Windows 2008 R2 Server, размер образа -  5.5 Гб.
@@ -79,9 +79,9 @@ read -p "Выберите необходимую ОС (введите нужну
 [ $var == 1 ] && l="https://www.googleapis.com/drive/v3/files/1hRMXIrCUrThimSLwX30YUo01cjLuI_20/?key=AIzaSyDliYimBJiQvxejchkhEbt2-AAmSRamMLU&alt=media" && si=454969856 && ovan=u14    
 [ $var == 2 ] && l="https://www.googleapis.com/drive/v3/files/1d_iBRWBQxshzQeykvrilDdzbj2jgxfYv/?key=AIzaSyDliYimBJiQvxejchkhEbt2-AAmSRamMLU&alt=media" && si=2523062784 && ovan=u18   
 [ $var == 3 ] && l="https://www.googleapis.com/drive/v3/files/1N4uE7nd6u15aiEjSFAaLodeG41DFFhkr/?key=AIzaSyDliYimBJiQvxejchkhEbt2-AAmSRamMLU&alt=media" && si=4068600832 && ovan=u22
-[ $var == 4 ] && l="https://www.googleapis.com/drive/v3/files/1M5tp-CtY4YPW5KBpHCRqIpnFG5NpYp4f/?key=AIzaSyD8K5qVaM7-gThnjnotPtoZPU48TaQCFjg&alt=media" && si=6850513408 && ovan=u24
+[ $var == 4 ] && l="https://www.googleapis.com/drive/v3/files/1GYvCeq8Zmww2Go5EUKxVwTShzoEp_M6A/?key=AIzaSyD8K5qVaM7-gThnjnotPtoZPU48TaQCFjg&alt=media" && si=6850513408 && ovan=u24
 [ $var == 5 ] && l="https://www.googleapis.com/drive/v3/files/1tVV36d_hAQMFv65rZcuuYtlOZpOvDA0_/?key=AIzaSyBhmN7QmiDbqagUnq9gBGqA-yZYx5FmKMk&alt=media" && si=612539392 && ovan=xp     
-[ $var == 6 ] && l="https://www.googleapis.com/drive/v3/files/15_T9Sl_yG4CWVbJMRpmEmLf4LrAubnW2/?key=AIzaSyBhmN7QmiDbqagUnq9gBGqA-yZYx5FmKMk&alt=media" && si=3067866112 && ovan=w7    
+[ $var == 6 ] && l="https://www.googleapis.com/drive/v3/files/1rrPwMHUGAy7VhZ_hKWo8yn1X8g4Qu9m-/?key=AIzaSyBhmN7QmiDbqagUnq9gBGqA-yZYx5FmKMk&alt=media" && si=3067866112 && ovan=w7    
 [ $var == 7 ] && l="https://www.googleapis.com/drive/v3/files/1aHW3LOE1g1y75lyVmmC1CWwP3PqWNTdb/?key=AIzaSyAt0u3A64Tl3_WCL4L_ihGY22p67RCI4wQ&alt=media" && si=7471829504 && ovan=w7f   
 [ $var == 8 ] && l="https://www.googleapis.com/drive/v3/files/1eKhoDaDN320hLIPo5G1jdlLPlgtKVx8T/?key=AIzaSyBhmN7QmiDbqagUnq9gBGqA-yZYx5FmKMk&alt=media" && si=6417490432 && ovan=w10   
 [ $var == 9 ] && l="https://www.googleapis.com/drive/v3/files/1fTR6yQTjFLhfCb94hU7cUS1K3AAl4hxD/?key=AIzaSyCgtpLK0tle6L4ijI7PUtq35Xki1FGnaks&alt=media" && si=5930994688 && ovan=w2k8  
